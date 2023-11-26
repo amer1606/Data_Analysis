@@ -1,1 +1,36 @@
+IMPACT OF AGE
+
+- integrating the impact of age, women are expected to earn 9.2 log points less than men, on average. SE is low at 0.01. p close to zero.
+
+- the 95% CI on Beta ranges from -7.2 and -11.2 log points.
+
+- for each additional year of age, women are expected to earn 0.8 log pt more (almost 1%). This is a result online with the general population.
+
+- to be noted that up until the age of 25, women's wage per hour is slightly higher than for men, whilst differences in wage become strongly negative from 26 year-old and on.
+
+- unlike the general population, women in these professional categories are older than men (+2.6 years on average) with an unusual decrease in the men older population in the mid-40s.
+
+IMPACT OF THE EDUCATION LEVEL
+
+- integrating impact of education, women are expected to earn 7.7 log points less than men, on average. 
+- the education ranking has no mathematical ground: each year of school gives an extra point to the education level up until high school.
+- hence the limited positive impact (0.46 log pt). With a scaling of 15 pts from the lowest to highest education level, education seems to have a limited incidence on wages.
+
+IMPACT OF THE EDUCATION LEVEL (REVISITED)
+
+- a simple analysis by category of education (no diploma vs high school vs graduate) gives another view as illustrated by the initial bar chart and table where female graduates earned 46% more than women without any diploma (the gap is +70% for men). Female graduates earn 17% less than men graduates whilst the difference is only -2% in the population without diploma.
+- the new regression analysis gives a much better result with a much higher R2
+- impact of high school is 18 log pt (vs no diploma) and graduated is 39 log pt higher than no diploma.
+
+FOR SIMPLICITY WE CAN GIVE A PREFERENCE TO GENDER + EDUCATION TO EXPLAIN DIFFERENCES
+
+>- Integrating the impact of just these two variables on women aged 26+, female workers are expected to earn 13.5 log points less than men on average due to gender, with a 95%CI at +/- 2.5pts.
+>- High school brings a 17% differnce and graduation a 36%.
+>- with the p test we can reject the null hypothesis.
+
+FOR BETTER INTEGRATION OF ALL PARAMETERS: GENDER + AGE + OWNCHILD + EDUCATION
+
+- These are the best regression results with higher R2, best T test, lowest std deviation
+- Interest of this option is to materialize the fact that something happens to women after 25 years of age and again in the mid 40s (where they outnumber men as age increases, an unusual characteritic attached to these job categories). To that extent, "marital" has a similar impact than "ownchild".
+
 
