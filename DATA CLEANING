@@ -1,0 +1,22 @@
+CLEANING TABLE
+Taking out "geo" data as we will not analyze geographical incidences ('stfips', 'state'), union-related data ('unionmme', 'unioncov'),
+questionnaire-handling data ('hhid', 'intmonth', 'weight', 'lfsr94') and 'ethnic' as low response.
+
+DATA SELECTION
+Selecting occupation code from 4000 to 4160, ie "Food Preparation and Serving Related Occupations"
+
+This dataset represents about 5% of the database. Nearly half of the observations in 2 categories : 4110 (waiters and waitresses) and 4020 (cooks).
+Other categories are very close or often hybrids of these 2 main categories.
+
+4000 Chefs and head cooks 35-1011  
+4010 First-line supervisors/managers of food preparation and serving workers 35-1012  
+4020 Cooks 35-2010  
+4030 Food preparation workers 35-2021  
+4040 Bartenders 35-3011  
+4050 Combined food preparation and serving workers, including fast food 35-3021  
+4060 Counter attendants, cafeteria, food concession, and coffee shop 35-3022  
+4110 Waiters and waitresses 35-3031  
+4120 Food servers, nonrestaurant 35-3041  
+4130 Food preparation and serving related workers, all other including dining room and cafeteria attendants and bartender helpers 35-9011  
+4140 Dishwashers 35-9021  
+4150 Hosts and hostesses, restaurant, lounge, and coffee shop 35-9031
