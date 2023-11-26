@@ -1,0 +1,8 @@
+OBSERVATIONS ON THE "FOOD PREPARATION" DATASET
+ - the dataset accounts for 8694 observations.
+ - it is more female than male (mean of sex at 1.56 - nearly 1000 more women).
+ - a rather young population with 32 years on average (vs 40 for the total population).
+ - child presence under the population average (possibly related to age).
+ - lower hours per week (31hrs) than the average population (39hrs).
+ - a lower wage per week (half that of the population) with similar standard deviation (in proportion).
+
